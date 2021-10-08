@@ -254,3 +254,59 @@ sup{
         margin-top: 3rem;
     }
 }
+
+/* responsive code for weather page */
+
+@media(min-width:320px) and (max-width:500px){
+
+    .temp_form{
+        margin: 5rem 2rem;
+    }
+    .temp_form input[type='text'] {
+        background-color: var(--main-bg);
+        width: auto;
+        padding: 6px 48px 8px 20px;
+        font-size: 1.5rem;
+        margin: 2px;;
+        
+    }
+    .temp_form input[type='submit'] {
+        background-color: var(--main-color);
+        color: white;
+        padding: 2px;
+        width: 78px;
+        font-size: -3.5rem;
+        position: absolute;
+        top: 7px;
+        bottom: 6px;
+        left: 208px;
+        
+    }
+
+    .tempInfromation{
+        background-color: var(--main-bg);
+        margin: 5rem 0rem;
+        width: 25rem;
+    
+    }
+    .top_layer p{
+       padding: 1rem 1rem;
+    }
+    .main_layer .middle_layer_data_hide p, .main_layer .middle_layer_data_hide .fas {
+        font-size: 3rem;
+        font-weight: 900;
+    }
+    sup{
+        font-size: 3rem;
+        margin-top: -2rem;
+    }
+}
+
+@media(min-width:321px) and (max-width:425px){
+    .tempInfromation{
+        background-color: var(--main-bg);
+        margin: 5rem 0rem;
+        width: 25rem;
+    
+    }
+}
