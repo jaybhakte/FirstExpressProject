@@ -21,8 +21,8 @@
 
                 <div class="tempInfromation">
                     <div class="top_layer">
-                        <p id="day">Wednesday</p>
-                        <p id="today_date">29 Sept</p>
+                        <p id="description"></p>
+                        <p id="today_date"></p>
                     </div>
                     <div class="main_layer">
                         <p id="city_name">Get Output Here:</p>
@@ -50,6 +50,11 @@
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
      -->
      <script src="js/main.js"></script>
+
+     <script>
+         const d = new Date() ;
+        document.getElementById("today_date").innerHTML = d.toDateString();
+     </script>
 </body>
 
 </html>
